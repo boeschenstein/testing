@@ -15,6 +15,8 @@ From 'Continuous delivery and continuous deployment': <https://youtu.be/bTGj4PeR
 1. Deploy
 1. Delivery
 
+Azure Pipelines see: https://github.com/boeschenstein/AzureDevOps/blob/main/README.md
+
 ## Seven Software Testing Principles
 
 From: <https://www.guru99.com/software-testing-seven-principles.html>
@@ -75,3 +77,15 @@ What
 - Smoke tests instead
 - Minimize manual tests
 - Exploratory tests instead
+
+## xUnit
+
+https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+
+## Fake: Stub vs Mock
+
+Speak the same Language: https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#lets-speak-the-same-language
+
+## Best Practices
+
+https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
