@@ -113,3 +113,9 @@ Speak the same Language: <https://learn.microsoft.com/en-us/dotnet/core/testing/
 
 - More Information on DDD testing: https://github.com/boeschenstein/clean-architecture/blob/main/README.md
 - SpecFlow (todo)
+
+## Information
+
+- Unit testing <https://docs.microsoft.com/en-us/dotnet/core/testing/>
+- Integration Testing <https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests>
+- EF Core Testing: <https://docs.microsoft.com/en-us/ef/core/testing/>
