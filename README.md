@@ -80,12 +80,36 @@ What
 
 ## xUnit
 
-https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test
+<https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test>
 
 ## Fake: Stub vs Mock
 
-Speak the same Language: https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#lets-speak-the-same-language
+Speak the same Language: <https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#lets-speak-the-same-language>
 
 ## Best Practices
 
-https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices
+<https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices>
+
+## Unit Testing Tools
+
+- FluentAssertions: <https://fluentassertions.com/>
+- Moq, AutoMoq
+  - <https://github.com/Moq>
+  - <https://github.com/thomashfr/AutoMoqCore>
+  - .NET classic, with example: <https://github.com/darrencauthon/AutoMoq>
+- Bogus, AutoBogus, AutoFaker
+    - <https://github.com/nickdodd79/AutoBogus>
+    - Links and documentation: <https://github.com/bchavez/Bogus>
+- Other libraries: 2 different `Faker.net`:
+  - fakes data: addresses (UK, US), boolean, companies, countries, currencies, ...
+  - A) <https://github.com/oriches/faker-cs> (based on ruby faker)
+    - Nuget: <https://www.nuget.org/packages/Faker.Net>
+  - B) <https://github.com/jonwingfield/Faker.Net> (based on ruby ffaker, sugar)
+- AutoFixture: <https://github.com/AutoFixture/AutoFixture>
+- Schouldly: <https://docs.shouldly.org/>
+- Cheat Sheet Moq, xUnit, AutoFixture: <https://www.jankowskimichal.pl/wp-content/uploads/downloads/2016/01/Cheatsheet_Moq_xUnit_AutoFixture.pdf>
+
+## Advanced Testing
+
+- More Information on DDD testing: https://github.com/boeschenstein/clean-architecture/blob/main/README.md
+- SpecFlow (todo)
