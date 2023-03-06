@@ -90,6 +90,17 @@ Speak the same Language: <https://learn.microsoft.com/en-us/dotnet/core/testing/
 
 <https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices>
 
+## Unit Test Helpers
+
+Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main/README.md#unit-test-helpers
+
+- FluentAssertions
+- Moq
+- AutoMoqer/AutoMoqCore
+- Bogus, AutoBogus
+- AutoBogus / AutoFaker
+- AutoFixture
+
 ## Unit Testing Tools
 
 - FluentAssertions: <https://fluentassertions.com/>
