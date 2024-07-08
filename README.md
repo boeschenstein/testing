@@ -120,6 +120,13 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
 - Schouldly: <https://docs.shouldly.org/>
 - Cheat Sheet Moq, xUnit, AutoFixture: <https://www.jankowskimichal.pl/wp-content/uploads/downloads/2016/01/Cheatsheet_Moq_xUnit_AutoFixture.pdf>
 - FakeLogger, TimeProvider <https://devblogs.microsoft.com/dotnet/fake-it-til-you-make-it-to-production/>
+- <https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub>
+  - `Dummy` objects are passed around but never actually used. Usually they are just used to fill parameter lists.
+  - `Fake` objects actually have working implementations, but usually take some shortcut which makes them not suitable for production (an in memory database is a good example).
+  - `Stubs`
+    - provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
+    - Stubs may also record information about calls, such as an email gateway stub that remembers the messages it 'sent', or maybe only how many messages it 'sent'.
+  - `Mocks` are what we are talking about here: objects pre-programmed with expectations which form a specification of the calls they are expected to receive.
 
 ## Advanced Testing
 
