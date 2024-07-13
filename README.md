@@ -127,6 +127,10 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
     - provide canned answers to calls made during the test, usually not responding at all to anything outside what's programmed in for the test.
     - Stubs may also record information about calls, such as an email gateway stub that remembers the messages it 'sent', or maybe only how many messages it 'sent'.
   - `Mocks` are what we are talking about here: objects pre-programmed with expectations which form a specification of the calls they are expected to receive.
+  - Snapshot testing
+    - do not write asserts - use files instead
+    - overview <https://timdeschryver.dev/bits/snapshot-testing-in-c-with-verify>
+    - https://github.com/VerifyTests/Verify
 
 ## Advanced Testing
 
