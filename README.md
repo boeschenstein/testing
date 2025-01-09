@@ -136,6 +136,7 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
 
 - More Information on DDD testing: https://github.com/boeschenstein/clean-architecture/blob/main/README.md
 - SpecFlow (todo)
+- Load Testing Tool <https://k6.io/>
 
 ## Information
 
