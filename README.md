@@ -103,7 +103,6 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
 
 ## Unit Testing Tools
 
-- FluentAssertions: <https://fluentassertions.com/>
 - Moq, AutoMoq
   - <https://github.com/Moq>
   - <https://github.com/thomashfr/AutoMoqCore>
@@ -117,7 +116,10 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
     - Nuget: <https://www.nuget.org/packages/Faker.Net>
   - B) <https://github.com/jonwingfield/Faker.Net> (based on ruby ffaker, sugar)
 - AutoFixture: <https://github.com/AutoFixture/AutoFixture>
-- Schouldly: <https://docs.shouldly.org/>
+- Assertions
+    - Fork of FluentAssertions: <https://github.com/AwesomeAssertions/AwesomeAssertions>
+    - Shouldly: <https://docs.shouldly.org/>
+    - FluentAssertions (not free anymore): <https://fluentassertions.com/>
 - Cheat Sheet Moq, xUnit, AutoFixture: <https://www.jankowskimichal.pl/wp-content/uploads/downloads/2016/01/Cheatsheet_Moq_xUnit_AutoFixture.pdf>
 - FakeLogger, TimeProvider <https://devblogs.microsoft.com/dotnet/fake-it-til-you-make-it-to-production/>
 - <https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub>
