@@ -101,7 +101,7 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
 - AutoBogus / AutoFaker
 - AutoFixture
 
-## Unit Testing Tools
+## Unit Testing Helper
 
 - Moq, AutoMoq
   - <https://github.com/Moq>
@@ -136,6 +136,14 @@ Examples: https://github.com/boeschenstein/aspnetefcore5-specification/blob/main
 
 ## Advanced Testing
 
+- Snapshot testing: do not write asserts - use files instead
+    - Overview <https://timdeschryver.dev/bits/snapshot-testing-in-c-with-verify>
+    - <https://github.com/VerifyTests/Verify>
+- Stryker Mutator
+    - This tool temporarily mutates (aka changes) your code (example: replaces + with -, true with false, ...) and if your unit test won't fail, it blames your test as unsufficent.
+    - <https://stryker-mutator.io/>
+    - All Mutations: <https://stryker-mutator.io/docs/stryker-net/mutations/>
+    - Blog with example: <https://engincanv.github.io/c%23/.net/stryker/2024/02/10/mutation-testing-in-c-sharp-with-stryker.html>
 - More Information on DDD testing: https://github.com/boeschenstein/clean-architecture/blob/main/README.md
 - SpecFlow (todo)
 - Load Testing Tool <https://k6.io/>
